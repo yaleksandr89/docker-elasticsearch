@@ -10,7 +10,13 @@ COPY kibana.yml /usr/share/kibana/config/kibana.yml
 # Копируем скрипт, который ждет запуск Elasticsearch перед стартом Kibana
 COPY wait-for-elastic.sh /usr/local/bin/wait-for-elastic.sh
 
+# Переключаемся на пользователя root для изменения прав
+USER root
+
 # Даем права на выполнение скрипта
 RUN chmod +x /usr/local/bin/wait-for-elastic.sh
+
+# Переключаемся обратно на пользователя kibana
+USER kibana
 
 CMD ["/usr/local/bin/wait-for-elastic.sh"]
