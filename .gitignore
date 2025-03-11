@@ -3,8 +3,7 @@
 .idea/
 
 # Игнорируем данные Elasticsearch и Kibana
-data/elasticsearch/
-data/kibana/
+data/
 
 # Игнорируем временные файлы Docker
 *.log
