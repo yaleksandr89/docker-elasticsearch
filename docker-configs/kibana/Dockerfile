@@ -1,5 +1,5 @@
 # ARG позволяет передавать версию Kibana из docker-compose.yml
-ARG KIBANA_VERSION
+ARG KIBANA_VERSION=lates
 
 # Берем официальный образ Kibana (Нужен VPN!)
 FROM docker.elastic.co/kibana/kibana:${KIBANA_VERSION}

@@ -1,9 +1,8 @@
 # ARG позволяет передавать версию Elastic из docker-compose.yml
-ARG ELASTIC_VERSION
+ARG ELASTIC_VERSION=lates
 
 # Берем официальный образ Elasticsearch (Нужен VPN!)
 FROM docker.elastic.co/elasticsearch/elasticsearch:${ELASTIC_VERSION}
-
 
 # Копируем конфигурационный файл внутрь контейнера
 COPY elasticsearch.yml /usr/share/elasticsearch/config/elasticsearch.yml
