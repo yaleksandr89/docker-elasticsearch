@@ -1,2 +1,12 @@
+# Общие
 .env
 .idea/
+
+# Игнорируем данные Elasticsearch и Kibana
+data/elasticsearch/
+data/kibana/
+
+# Игнорируем временные файлы Docker
+*.log
+*.pid
+*.sock
