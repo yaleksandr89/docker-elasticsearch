@@ -1,6 +1,6 @@
 server.name: kibana
 server.host: "0.0.0.0"
-elasticsearch.hosts: ["http://onex-elasticsearch:9200"]
+elasticsearch.hosts: ["http://global-elasticsearch:9200"]
 
 #Разбор параметров
 #  server.name: kibana → Имя сервера (не обязательно менять).
