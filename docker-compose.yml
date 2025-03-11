@@ -1,0 +1,53 @@
+name: global-elasticsearch
+services:
+  elasticsearch:
+    container_name: ${ELASTIC_CONTAINER}
+    build:
+      context: ./docker-configs/elasticsearch
+      args:
+        ELASTIC_VERSION: ${ELASTIC_VERSION}
+    environment:
+      - discovery.type=single-node
+      - cluster.name=custom-cluster
+      - 'ES_JAVA_OPTS=-Xms1024m -Xmx1024m'
+    volumes:
+      - ${ELASTIC_DATA_DIR}:/usr/share/elasticsearch/data
+    networks:
+      - backend
+
+  kibana:
+    container_name: ${KIBANA_CONTAINER}
+    build:
+      context: ./docker-configs/kibana
+      args:
+        KIBANA_VERSION: ${KIBANA_VERSION}
+    environment:
+      - ELASTICSEARCH_URL=http://${ELASTIC_CONTAINER}:9200
+      - SERVER_NAME=${KIBANA_DOMAIN}
+    depends_on:
+      - elasticsearch
+    networks:
+      - backend
+
+  nginx:
+    container_name: ${NGINX_CONTAINER}
+    build:
+      context: ./docker-configs/nginx
+      args:
+        NGINX_VERSION: ${NGINX_VERSION}
+        ELASTIC_CONTAINER: ${ELASTIC_CONTAINER}
+        KIBANA_CONTAINER: ${KIBANA_CONTAINER}
+        ELASTIC_PORT: ${ELASTIC_PORT}
+        KIBANA_PORT: ${KIBANA_PORT}
+        ELASTIC_DOMAIN: ${ELASTIC_DOMAIN}
+        KIBANA_DOMAIN: ${KIBANA_DOMAIN}
+    ports:
+      - '${NGINX_PORT}:80'
+    depends_on:
+      - kibana
+    networks:
+      - backend
+
+networks:
+  backend:
+    driver: bridge
