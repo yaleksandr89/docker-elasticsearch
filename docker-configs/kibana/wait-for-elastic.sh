@@ -3,7 +3,7 @@
 # Скрипт завершится, если команда вернет ошибку
 set -e
 
-ELASTIC_URL="http://${ELASTICSEARCH_URL}"
+ELASTIC_URL="${ELASTICSEARCH_URL}"
 
 echo "⏳ Ожидание доступности Elasticsearch по адресу $ELASTIC_URL..."
 
