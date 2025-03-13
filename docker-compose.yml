@@ -14,8 +14,7 @@ services:
       - ${ELASTIC_DATA_DIR}:/usr/share/elasticsearch/data
     networks:
       - backend
-      # Указать название сети, к которому нужно подключить поиск (список сетей: docker network ls)
-      #- name_external_network
+      - external_network
 
   kibana:
     container_name: ${KIBANA_CONTAINER}
@@ -53,6 +52,6 @@ services:
 networks:
   backend:
     driver: bridge
-  # Указать название сети, к которому нужно подключить поиск (список сетей: docker network ls)
-  #name_external_network:
-  #  external: true
+  external_network:
+    name: ${EXTERNAL_NETWORK}
+    external: true
