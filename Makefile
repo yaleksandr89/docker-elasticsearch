@@ -26,6 +26,16 @@ init:
 		echo "Файл $(ENV_FILE) уже существует"; \
 	fi
 
+	@echo "Проверяем переменные и создаем директории для данных..."
+	@ELASTIC_DIR=$$(grep '^ELASTIC_DATA_DIR=' $(ENV_FILE) | cut -d '=' -f2); \
+	KIBANA_DIR=$$(grep '^KIBANA_DATA_DIR=' $(ENV_FILE) | cut -d '=' -f2); \
+	for DIR in "$$ELASTIC_DIR" "$$KIBANA_DIR"; do \
+		if [ -n "$$DIR" ] && [ ! -d "$$DIR" ]; then \
+			mkdir -p "$$DIR"; \
+			echo "Создана директория: $$DIR"; \
+		fi; \
+	done
+
 # Для получения образов (скачиваем актуальные образы Docker)
 pull:
 	@echo "Скачиваем Docker образы для Elasticsearch, Kibana и Nginx..."
