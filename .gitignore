@@ -1,5 +1,6 @@
 # Общие
 .env
+.docker.env
 .idea/
 
 # Игнорируем данные Elasticsearch и Kibana
