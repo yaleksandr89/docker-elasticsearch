@@ -1,5 +1,6 @@
 cluster.name: "global-cluster"
 network.host: 0.0.0.0
+path.conf: /usr/share/elasticsearch/config
 
 #Что делает network.host: 0.0.0.0?
 #  Elasticsearch по умолчанию слушает только localhost (недоступен извне).

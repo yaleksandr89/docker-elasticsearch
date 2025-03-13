@@ -1,0 +1,226 @@
+абакан, abakan
+александров, aleksandrov
+алупка, alupka
+алушта, alushta
+анадырь, anadyr
+анапа, anapa
+ангарск, angarsk
+армавир, armavir
+архангельск, arkhangelsk, арх
+астрахань, astrakhan, астр
+ахтубинск, akhtubinsk
+балаклава, balaklava
+балаково, balakovo
+балашиха, balashikha
+балтийск, baltiysk
+барнаул, barnaul
+бахчисарай, bakhchisaray
+белгород, belgorod
+белокуриха, belokurikha
+белорецк, beloretsk
+бийск, biysk
+благовещенск, blagoveshchensk
+бологое, bologoe
+братск, bratsk
+брянск, bryansk
+буйнакск, buynaksk
+валдай, valday
+великие луки, velikie luki
+великий новгород, veliky novgorod, velikiy novgorod
+великий устюг, veliky ustyug
+верхотурье, verkhoturye
+владивосток, vladivostok, ввд, vvd
+владикавказ, vladikavkaz
+владимир, vladimir
+волгоград, volgograd
+волгодонск, volgodonsk
+вологда, vologda
+воркута, vorkuta
+воронеж, voronezh, вор
+выборг, vyborg
+гатчина, gatchina
+геленджик, gelendzhik
+горно-алтайск, gorno-altaysk
+гороховец, gorokhovets
+грозный, grozny
+гусев, gusev
+гусь-хрустальный, gus-khrustalny
+далматово, dalmatovo
+дербент, derbent
+дзержинск, dzerzhinsk
+дмитров, dmitrov
+долгопрудный, dolgoprudny
+дубна, dubna
+евпатория, evpatoria
+ейск, yeysk
+екатеринбург, yekaterinburg, ekaterinburg, екб, ekb
+елабуга, elabuga
+ессентуки, essentuki
+железноводск, zheleznovodsk
+задонск, zadonsk
+звенигород, zvenigorod
+зеленогорск, zelenogorsk
+зеленоградск, zelenogradsk
+златоуст, zlatoust
+иваново, ivanovo
+игарка, igarka
+ижевск, izhevsk
+иннополис, innopolis
+иркутск, irkutsk
+истра, istra
+йошкар-ола, yoshkar-ola
+казань, kazan, kzn, каз
+калининград, kaliningrad, kgd
+калуга, kaluga
+калязин, kalyazin
+каспийск, kaspiysk
+кемерово, kemerovo
+керчь, kerch
+кидекша, kideksha
+киржач, kirzhach
+киров, kirov
+кисловодск, kislovodsk
+клин, klin
+ковров, kovrov
+козельск, kozelsk
+коломна, kolomna
+комсомольск-на-амуре, komsomolsk-na-amure
+кострома, kostroma
+красногорск, krasnogorsk
+краснодар, krasnodar, крд, krd
+красноярск, krasnoyarsk, кра, kja
+кронштадт, kronstadt
+курган, kurgan
+курск, kursk
+липецк, lipetsk
+магадан, magadan
+магас, magas
+магнитогорск, magnitogorsk
+майкоп, maykop
+махачкала, makhachkala
+миасс, miass
+минеральные воды, mineralnye vody
+мирный, mirny
+мичуринск, michurinsk
+можайск, mozhaysk
+москва, moscow, moskva, moskwa, мск, msk
+мурманск, murmansk
+муром, murom
+мытищи, mytishchi
+мышкин, myshkin
+набережные челны, naberezhnye chelny, нч, nch
+назрань, nazran
+нальчик, nalchik
+находка, nakhodka
+невинномысск, nevinnomyssk
+невьянск, nevyansk
+неман, neman
+нерехта, nerekhta
+нижневартовск, nizhnevartovsk
+нижнекамск, nizhnekamsk
+нижний новгород, nizhny novgorod, nizhny-novgorod, нн, nn
+нижний тагил, nizhny tagil
+новокузнецк, novokuznetsk
+новороссийск, novorossiysk
+новосибирск, novosibirsk, новосиб, nsk
+новочеркасск, novocherkassk
+новый уренгой, novy urengoy
+норильск, norilsk
+омск, omsk
+орджоникидзе, ordzhonikidze
+орёл, orel
+оренбург, orenburg
+орск, orsk
+осташков, ostashkov
+палех, palekh
+пенза, penza
+первоуральск, pervouralsk
+переславль-залесский, pereslavl-zalessky
+пермь, perm
+петергоф, peterhof
+петрозаводск, petrozavodsk
+петропавловск-камчатский, petropavlovsk-kamchatsky
+печоры, pechory
+пионерский, pionersky
+питкяранта, pitkyaranta
+плёс, plyos
+подольск, podolsk
+полесск, polessk
+пошехонье, poshekhonye
+приморско-ахтарск, primorsko-ahtarsk
+приозерск, priozersk
+псков, pskov
+пушкин, pushkin
+пятигорск, pyatigorsk
+ржев, rzhev
+рославль, roslavl
+ростов великий, rostov veliky
+ростов-на-дону, rostov-na-donu, рнд, rnd
+рыбинск, rybinsk
+рязань, ryazan
+салехард, salekhard
+самара, samara
+санкт-петербург, sankt-peterburg, спб, spb, питер, ленинград
+саранск, saransk
+саратов, saratov
+светлогорск, svetlogorsk
+светогорск, svetogorsk
+севастополь, sevastopol
+северодвинск, severodvinsk
+североморск, severomorsk
+сергиев посад, sergiev posad
+симферополь, simferopol
+смоленск, smolensk
+советск, sovetsk
+сортавала, sortavala
+сочи, sochi
+ставрополь, stavropol
+старая русса, staraya russa
+старый крым, stary krym
+стерлитамак, sterlitamak
+стрельна, strelna
+судак, sudak
+суздаль, suzdal
+сургут, surgut
+сызрань, syzran
+сыктывкар, syktyvkar
+таганрог, taganrog
+тамбов, tambov
+таруса, tarusa
+тверь, tver
+теберда, teberda
+темерюк, temryuk
+тобольск, tobolsk
+тольятти, tolyatti
+томск, tomsk
+торжок, torzhok
+троицк, troitsk
+туапсе, tuapse
+тула, tula
+тутаев, tutaev
+тюмень, tyumen
+углич, uglic
+улан-удэ, ulan-ude
+ульяновск, ulyanovsk
+уссурийск, ussuriysk
+уфа, ufa
+ухта, ukhta
+феодосия, feodosiya
+форос, foros
+хабаровск, khabarovsk
+ханты-мансийск, khanty-mansiysk
+хасавюрт, hasavyurt
+чебоксары, cheboksary
+челябинск, chelyabinsk
+череповец, cherepovets
+черняховск, chernyakhovsk
+чита, chita
+шлиссельбург, shlisselburg
+щёлкино, shchyolkino
+элиста, elista
+энгельс, engels
+южно-сахалинск, yuzhno-sakhalinsk
+юрьев-польский, yuryev-polsky
+якутск, yakutsk
+ялта, yalta
+ярославль, yaroslavl

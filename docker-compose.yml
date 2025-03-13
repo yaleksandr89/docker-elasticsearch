@@ -9,11 +9,13 @@ services:
     environment:
       - discovery.type=single-node
       - cluster.name=custom-cluster
-      - 'ES_JAVA_OPTS=-Xms1024m -Xmx1024m'
+      - 'ES_JAVA_OPTS=-Xms2048m -Xmx2048m'
     volumes:
       - ${ELASTIC_DATA_DIR}:/usr/share/elasticsearch/data
     networks:
       - backend
+      # Указать название сети, к которому нужно подключить поиск (список сетей: docker network ls)
+      #- name_external_network
 
   kibana:
     container_name: ${KIBANA_CONTAINER}
@@ -51,3 +53,6 @@ services:
 networks:
   backend:
     driver: bridge
+  # Указать название сети, к которому нужно подключить поиск (список сетей: docker network ls)
+  #name_external_network:
+  #  external: true
