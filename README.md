@@ -1,19 +1,36 @@
 # Global Elasticsearch Stack
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+## Выберите язык:
+
+| Русский    | English                              | Español                              | 中文                              | Français                              | Deutsch                              |
+|------------|--------------------------------------|--------------------------------------|---------------------------------|---------------------------------------|--------------------------------------|
+| **Выбран** | [English](./langs/README_en.md) | [Español](./langs/README_es.md) | [中文](./langs/README_zh.md) | [Français](./langs/README_fr.md) | [Deutsch](./langs/README_de.md) |
+
 Проект предоставляет готовый стек `Elasticsearch + analysis-icu + Kibana` с обратным прокси `Nginx` для удобного доступа.
 
 ## 📋 Предварительные требования
 
-- Установленный Docker и Docker Compose
+- Docker 20.10+ и Docker Compose 2.0+
 - 4+ GB свободной оперативной памяти
-- Порт 8080 свободен на хосте
+- Порты 8080 и 9200 свободны на хосте
+- Существующая Docker сеть `external_network` (**если не требуется нужно удалить из docker-compose.yml**)
 
 ## 🗂 Структура проекта
 
 ```
 .
+├── .docker.env (создается командой или вручную)
+├── .docker.env.example
+├── .gitignore
 ├── docker-compose.yml
-├── .env
+├── Makefile
+├── README.md
+├── langs
+│   ├── ...файлы локализации README.md...
+├── assets
+│   ├── ...контент для README.md...
 ├── docker-configs
 │   ├── elasticsearch
 │   │   ├── Dockerfile
@@ -26,80 +43,128 @@
 │       ├── Dockerfile
 │       └── default.conf.template
 └── data
-    ├── elasticsearch
-    └── kibana
+    ├── ...создается под проект в .env...
 ```
 
 ## ⚙️ Конфигурация
 
-| Переменная       | По умолчанию         | Описание                     |
-| ---------------- | -------------------- | ---------------------------- |
-| ELASTIC_VERSION  | 6.8.0                | Версия Elasticsearch         |
-| KIBANA_VERSION   | 6.8.0                | Версия Kibana                |
-| NGINX_PORT       | 8080                 | Порт для доступа через Nginx |
-| ELASTIC_DATA_DIR | ./data/elasticsearch | Хранилище данных Elastic     |
+Основные переменные окружения (файл `.docker.env`):
+
+| Переменная           | По умолчанию         | Описание                          |
+|----------------------|----------------------|-----------------------------------|
+| COMPOSE_PROJECT_NAME | elasticsearch        | Название проекта                  |
+| ELASTIC_VERSION      | latest               | Версия Elasticsearch              |
+| KIBANA_VERSION       | latest               | Версия Kibana                     |
+| NGINX_VERSION        | latest               | Версия Nginx                      |
+| ELASTIC_CONTAINER    | elasticsearch        | Название контейнера elasticsearch |
+| KIBANA_CONTAINER     | kibana               | Название контейнера kibana        |
+| NGINX_CONTAINER      | nginx                | Название контейнера nginx         |
+| KIBANA_DOMAIN        | kibana.local         | Домен для доступа к Kibana        |
+| ELASTIC_DOMAIN       | elastic.local        | Домен для доступа к Elasticsearch |
+| KIBANA_PORT          | 5601                 | Порт kibana на хосте              |
+| ELASTIC_PORT         | 9200                 | Порт elasticsearch на хосте       |
+| NGINX_PORT           | 80                   | Порт Nginx на хосте               |
+| ELASTIC_DATA_DIR     | ./data/elasticsearch | Хранилище данных Elasticsearch    |
+| KIBANA_DATA_DIR      | ./data/kibana        | Хранилище данных Kibana           |
+| EXTERNAL_NETWORK     | external_network     | Внешняя сеть Docker               |
 
 ## 🛠 Технические детали
 
-- Elasticsearch конфигурация:
-    - Single-node кластер
-    - Выделено 1GB RAM
-    - Плагин analysis-icu предустановлен
-- Kibana:
-    - Автоматическое ожидание готовности Elasticsearch
-    - Настроен прокси через Nginx
+- **Elasticsearch**:
+  - Single-node кластер
+  - Выделено 2GB RAM
+  - Плагин `analysis-icu` предустановлен
+  - Плагин `analysis-phonetic` предустановлен
+  - Конфигурация с синонимами через `synonyms.txt`
+- **Kibana**:
+  - Автоматическое ожидание готовности Elasticsearch
+  - Настроен прокси через Nginx
+- **Nginx**:
+  - Обратный прокси для Elasticsearch и Kibana
 
 ## 🚀 Быстрый старт
 
 ### 1. Клонирование репозитория
 
 ```bash
-git clone https://github.com/yourusername/global-elasticsearch.git
-cd global-elasticsearch
+git clone https://github.com/yourusername/docker-elasticsearch.git
+cd docker-elasticsearch
 ```
 
-### 2. Настройка окружения
+### 2. Инициализация окружения
 
-```bash
-cp .env.example .env
+Если вы используете Windows - смотрите файл `Makefile` - там есть полное описание команд. Рекомендую использовать или `Linux` или `Windows + WSL`.
+
+#### 2.1 инициализация .docker.env
+
+Выполнить:
+
+```makefile
+make init
 ```
 
-Отредактируйте .env при необходимости:
+В директории будет создан файл `.docker.env`, а также директории в которых будут храниться файлы (указываются в переменных: `ELASTIC_DATA_DIR`, `KIBANA_DATA_DIR`)
 
-```ini
-# Основные настройки
-NGINX_PORT=8080
-ELASTIC_DATA_DIR=./data/elasticsearch
-KIBANA_DATA_DIR=./data/kibana
+#### 2.2 Скачать образы elasticsearch, kibana, nginx
+
+Выполнить:
+
+```makefile
+make pull
 ```
 
-### 3. Запуск сервисов
+Будут скачены образы с версией указанной в `ELASTIC_VERSION`, `KIBANA_VERSION`, `NGINX_VERSION`.
 
-```bash
-docker-compose up -d --build
+#### 2.2 Запустить проект
+
+Выполнить:
+
+```makefile
+make up
 ```
 
-## ⚠️ Решение возможных проблем
+Если в процессе запуска возникла ошибка:
 
-### Ошибка загрузки образов
-
-Если возникает ошибка авторизации при сборке (_подставить нужные версии самостоятельно_):
-
-```bash
-# Скачайте образы вручную
-docker pull docker.elastic.co/elasticsearch/elasticsearch:6.8.0
-docker pull docker.elastic.co/kibana/kibana:6.8.0
-
-# Повторите сборку
-docker-compose build
+```text
+network onex_backend declared as external, but could not be found
 ```
+
+![make-up-error.png](./assets/make-up-error.png)
+
+Это означает, что вы не указали внешнюю сеть (сеть проекта, к которой нужно подключить elasticsearch). Варианта 2:
+
+1. Указать в существующую сеть в `.docker.env`, параметр `EXTERNAL_NETWORK`
+2. Удалить из `docker-compose.yml`
+```
+У сервиса elasticsearch:
+- external_network
+
+У networks:
+external_network:
+  name: ${EXTERNAL_NETWORK}
+  external: true
+```
+
+#### 2.3 Остальные команды
+
+- Сборка образов без кэша: `make build`
+- Останавливает контейнеры: `make down`
+- "Жесткий" перезапуск: `make reset`
+- "Мягкий" перезапуск: `make restart`
+- Войти в нужный контейнер: `make in <container>`
+- Просмотреть логи нужного контейнера: `make log <container>`
 
 ## 🔌 Доступ к сервисам
 
-Через Nginx прокси:
+После запуска доступны через Nginx:
 
-* Kibana: http://kibana.local:8080
-* Elasticsearch: http://elastic.local:8080
+- Kibana: http://`${KIBANA_DOMAIN}`:`${NGINX_PORT}`
+- Elasticsearch: http://`${ELASTIC_DOMAIN}`:`${NGINX_PORT}`
+
+По умолчанию:
+
+- Kibana: http://kibana.local:80
+- Elasticsearch: http://elastic.local:80
 
 **Не забудьте прописать домены**:
 
@@ -112,3 +177,19 @@ docker-compose build
 127.0.0.1    elastic.local
 127.0.0.1    kibana.local
 ```
+
+# Результат
+
+Доступ к Elasticsearch через браузер (http://elastic.local:80):
+
+![elastic-local-1.png](./assets/elastic-local-1.png)
+
+![elastic-local-2.png](./assets/elastic-local-2.png)
+
+Доступ к Kibana через браузер (http://kibana.local:80):
+
+![kibana-local-1.png](./assets/kibana-local-1.png)
+
+![kibana-local-2.png](./assets/kibana-local-2.png)
+
+![kibana-local-3.png](./assets/kibana-local-3.png)
