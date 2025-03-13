@@ -36,7 +36,7 @@
 волгодонск, volgodonsk
 вологда, vologda
 воркута, vorkuta
-воронеж, voronezh, вор
+воронеж, voronezh
 выборг, vyborg
 гатчина, gatchina
 геленджик, gelendzhik
@@ -103,7 +103,7 @@
 мирный, mirny
 мичуринск, michurinsk
 можайск, mozhaysk
-москва, moscow, moskva, moskwa, мск, msk
+москва, moscow, moskva, moskwa, мск, msk, москоу
 мурманск, murmansk
 муром, murom
 мытищи, mytishchi
@@ -160,7 +160,7 @@
 рязань, ryazan
 салехард, salekhard
 самара, samara
-санкт-петербург, sankt-peterburg, спб, spb, питер, ленинград
+санкт-петербург, sankt-peterburg, st. peterburg, sankt-petersburg, st. petersburg, спб, spb, питер, ленинград
 саранск, saransk
 саратов, saratov
 светлогорск, svetlogorsk
