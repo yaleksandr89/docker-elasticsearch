@@ -23,8 +23,9 @@ services:
       args:
         KIBANA_VERSION: ${KIBANA_VERSION}
     environment:
-      - ELASTICSEARCH_URL=http://${ELASTIC_CONTAINER}:9200
+      - ELASTICSEARCH_HOSTS=http://${ELASTIC_CONTAINER}:${ELASTIC_PORT}
       - SERVER_NAME=${KIBANA_DOMAIN}
+      - SERVER_PUBLICBASEURL=http://${KIBANA_DOMAIN}:${KIBANA_PORT}
     depends_on:
       - elasticsearch
     networks:

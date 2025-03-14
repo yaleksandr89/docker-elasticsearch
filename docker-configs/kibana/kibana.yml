@@ -1,8 +1,0 @@
-server.name: kibana
-server.host: "0.0.0.0"
-elasticsearch.hosts: ["http://global-elasticsearch:9200"]
-
-#Разбор параметров
-#  server.name: kibana → Имя сервера (не обязательно менять).
-#  server.host: "0.0.0.0" → Слушает запросы со всех адресов.
-#  elasticsearch.hosts: ["http://global-elasticsearch:9200"] → Kibana подключается к Elasticsearch по сети Docker.
