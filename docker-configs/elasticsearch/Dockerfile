@@ -8,7 +8,7 @@ FROM docker.elastic.co/elasticsearch/elasticsearch:${ELASTIC_VERSION}
 COPY elasticsearch.yml /usr/share/elasticsearch/config/elasticsearch.yml
 
 # Копируем файл с синонимами внутрь контейнера
-COPY synonyms.txt /usr/share/elasticsearch/config/analysis/synonyms.txt
+# COPY synonyms.txt /usr/share/elasticsearch/config/analysis/synonyms.txt
 
 # Проверяем, установлен ли плагин analysis-icu. Если плагин не установлен — ставим его.
 RUN if [ ! -d "/usr/share/elasticsearch/plugins/analysis-icu" ]; then \
