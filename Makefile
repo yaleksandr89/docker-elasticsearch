@@ -49,6 +49,10 @@ build:
 	@echo "Собираем Docker образы..."
 	$(COMPOSE_COMMAND) build --no-cache
 
+# Сборка образов без кэша
+config:
+	$(COMPOSE_COMMAND) config
+
 # Запускаем контейнеры
 up:
 	$(COMPOSE_COMMAND) up -d
