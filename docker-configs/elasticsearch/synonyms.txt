@@ -1,3 +1,57 @@
+Россия, Russia, RU
+США, United States, US
+Канада, Canada, CA
+Австралия, Australia, AU
+Новая Зеландия, New Zealand, NZ
+Франция, France, FR
+Германия, Germany, DE
+Италия, Italy, IT
+Испания, Spain, ES
+Великобритания, United Kingdom, GB
+Польша, Poland, PL
+Нидерланды, Netherlands, NL
+Швеция, Sweden, SE
+Дания, Denmark, DK
+Швейцария, Switzerland, CH
+Бельгия, Belgium, BE
+Греция, Greece, GR
+Турция, Turkey, TR
+Мексика, Mexico, MX
+Аргентина, Argentina, AR
+Бразилия, Brazil, BR
+Южноафриканская Республика, South Africa, ZA
+Япония, Japan, JP
+Китай, China, CN
+Южная Корея, South Korea, KR
+Индия, India, IN
+Таиланд, Thailand, TH
+Сингапур, Singapore, SG
+Малайзия, Malaysia, MY
+Индонезия, Indonesia, ID
+Вьетнам, Vietnam, VN
+Новая Зеландия, New Zealand, NZ
+Норвегия, Norway, NO
+Филиппины, Philippines, PH
+Гонконг, Hong Kong, HK
+ОАЭ, United Arab Emirates, AE
+Кувейт, Kuwait, KW
+Катар, Qatar, QA
+Бахрейн, Bahrain, BH
+Оман, Oman, OM
+Ливан, Lebanon, LB
+Иордания, Jordan, JO
+Египет, Egypt, EG
+Тунис, Tunisia, TN
+Марокко, Morocco, MA
+Алжир, Algeria, DZ
+Маврикий, Mauritius, MU
+Сейшельские Острова, Seychelles, SC
+Кения, Kenya, KE
+Гана, Ghana, GH
+Нигерия, Nigeria, NG
+Сенегал, Senegal, SN
+Уганда, Uganda, UG
+Камeroon, Cameroon, CM
 абакан, abakan
 александров, aleksandrov
 алупка, alupka
@@ -224,3 +278,105 @@
 якутск, yakutsk
 ялта, yalta
 ярославль, yaroslavl
+париж, paris, париж-сити
+барселона, barcelona
+лондон, london, лондон-сити
+рома, rome
+берлин, berlin
+мадрид, madrid
+вена, vienna
+амстердам, amsterdam
+прага, prague
+стокгольм, stockholm
+будапешт, budapest
+мюнхен, munich
+люксембург, luxembourg
+мальта, malta
+антуэрпен, antwerp
+женева, geneva
+барри, bari
+флоренция, florence
+севилья, sevilla
+монтре, montreux
+софия, sofia
+копенгаген, copenhagen
+амальфи, amalfi
+корсика, corsica
+нью-йорк, new york, nyc
+лос-анджелес, los angeles, la
+chicago, chicago
+сандиего, san diego
+миами, miami
+сан-франциско, san francisco, sf
+вашингтон, washington dc
+ласкали, las vegas
+бостон, boston
+портленд, portland
+вошингтон, washington
+сиркьюс, syracuse
+невада, nevada
+дерби, derby
+бруклин, brooklyn
+вегас, vegas
+саванна, savannah
+хьюстон, houston
+джексонвилл, jacksonville
+сент-лouis, st. louis
+миничикаго, minneapolis
+питсбург, pittsburgh
+норфолк, norfolk
+сидней, sydney
+мельбурн, melbourne
+ауckland, auckland
+перт, perth
+фиджи, fiji
+танжер, tangier
+киото, kyoto
+осака, osaka
+токио, tokyo
+саппоро, sapporo
+пекин, beijing
+шэньчжэнь, shenzhen
+шанхай, shanghai
+гуанчжоу, guangzhou
+сучжоу, suzhou
+ханчжоу, hangzhou
+гуилин, guilin
+австралия, australia
+кэрнс, cairns
+голд кост, gold coast
+таунсвилл, townsville
+сидней, sydney
+мельбурн, melbourne
+перт, perth
+уоллистон, wollongong
+паджа, padja
+окленд, auckland
+кристчерч, christchurch
+веллингтон, wellington
+даксбург, dunedin
+ноу-биан, noosaville
+джакарта, jakarta
+кейптаун, cape town
+претория, pretoria
+наироби, nairobi
+мумбаи, mumbai
+каир, cairo
+кигали, kigali
+дубай, dubai
+абиджан, abidjan
+гаван, havana
+боа-виста, boa vista
+глория, gloria
+сантьяго, santiago
+бразилиа, brasilia
+бали, bali
+парагвай, paraguay
+дубай, dubai
+шарджа, sharjah
+абу-даби, abu dhabi
+аль-айн, al ain
+рас-эль-хайма, ras al khaimah
+фуджейра, fujairah
+умм-аль-кувейн, umm al-quwain
+ав-джумейра, al jumeirah
