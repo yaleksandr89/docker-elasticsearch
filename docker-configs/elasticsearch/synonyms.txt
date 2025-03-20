@@ -1,57 +1,62 @@
-Россия, Russia, RU
-США, United States, US
-Канада, Canada, CA
-Австралия, Australia, AU
-Новая Зеландия, New Zealand, NZ
-Франция, France, FR
-Германия, Germany, DE
-Италия, Italy, IT
-Испания, Spain, ES
-Великобритания, United Kingdom, GB
-Польша, Poland, PL
-Нидерланды, Netherlands, NL
-Швеция, Sweden, SE
-Дания, Denmark, DK
-Швейцария, Switzerland, CH
-Бельгия, Belgium, BE
-Греция, Greece, GR
-Турция, Turkey, TR
-Мексика, Mexico, MX
-Аргентина, Argentina, AR
-Бразилия, Brazil, BR
-Южноафриканская Республика, South Africa, ZA
-Япония, Japan, JP
-Китай, China, CN
-Южная Корея, South Korea, KR
-Индия, India, IN
-Таиланд, Thailand, TH
-Сингапур, Singapore, SG
-Малайзия, Malaysia, MY
-Индонезия, Indonesia, ID
-Вьетнам, Vietnam, VN
-Новая Зеландия, New Zealand, NZ
-Норвегия, Norway, NO
-Филиппины, Philippines, PH
-Гонконг, Hong Kong, HK
-ОАЭ, United Arab Emirates, AE
-Кувейт, Kuwait, KW
-Катар, Qatar, QA
-Бахрейн, Bahrain, BH
-Оман, Oman, OM
-Ливан, Lebanon, LB
-Иордания, Jordan, JO
-Египет, Egypt, EG
-Тунис, Tunisia, TN
-Марокко, Morocco, MA
-Алжир, Algeria, DZ
-Маврикий, Mauritius, MU
-Сейшельские Острова, Seychelles, SC
-Кения, Kenya, KE
-Гана, Ghana, GH
-Нигерия, Nigeria, NG
-Сенегал, Senegal, SN
-Уганда, Uganda, UG
-Камeroon, Cameroon, CM
+россия, russia, ru
+сша, united states, us
+канада, canada, ca
+австралия, australia, au
+новая зеландия, new zealand, nz, aotearoa
+франция, france, fr
+германия, germany, de, deutschland
+италия, italy, it, italia
+испания, spain, es, españa
+великобритания, united kingdom, gb
+польша, poland, pl, polska
+нидерланды, netherlands, nl, nederland
+швеция, sweden, se, sverige
+дания, denmark, dk, danmark
+швейцария, switzerland, ch, schweiz
+бельгия, belgium, be, belgië
+греция, greece, gr, ελλάδα, ellada
+турция, turkey, tr, türkiye
+мексика, mexico, mx, méxico
+аргентина, argentina, ar
+бразилия, brazil, br, brasil
+южноафриканская республика, south africa, za, suid-afrika
+япония, japan, jp, 日本, nippon
+китай, china, cn, 中国, zhōngguó
+южная корея, south korea, kr, 대한민국, daehan minguk
+индия, india, in, भारत, bharat
+таиланд, thailand, th, ประเทศไทย, prathet thai
+сингапур, singapore, sg, singapura
+малайзия, malaysia, my
+индонезия, indonesia, id
+вьетнам, vietnam, vn, việt nam
+норвегия, norway, no, norge
+филиппины, philippines, ph, pilipinas
+гонконг, hong kong, hk, 香港, xiānggǎng
+оаэ, united arab emirates, ae, الإمارات, al-imarat
+кувейт, kuwait, kw, الكويت, al-kuwait
+катар, qatar, qa, قطر
+бахрейн, bahrain, bh, البحرين, al-bahrayn
+оман, oman, om, عمان
+ливан, lebanon, lb, لبنان, lubnan
+иордания, jordan, jo, الأردن, al-urdun
+египет, egypt, eg, مصر, misr
+тунис, tunisia, tn, تونس, tunis
+марокко, morocco, ma, المغرب, al-maghrib
+алжир, algeria, dz, الجزائر, al-jaza'ir
+маврикий, mauritius, mu
+сейшельские острова, seychelles, sc
+кения, kenya, ke
+гана, ghana, gh
+нигерия, nigeria, ng
+сенегал, senegal, sn, sénégal
+уганда, uganda, ug
+камерун, cameroon, cm, cameroun
+северная корея, north korea, kp, 조선민주주의인민공화국, chosŏn
+ирландия, ireland, ie, éire
+португалия, portugal, pt
+финляндия, finland, fi, suomi
+саудовская аравия, saudi arabia, sa, السعودية, al-saudiah
+чили, chile, cl
 абакан, abakan
 александров, aleksandrov
 алупка, alupka
@@ -80,7 +85,7 @@
 буйнакск, buynaksk
 валдай, valday
 великие луки, velikie luki
-великий новгород, veliky novgorod, velikiy novgorod
+великий новгород, veliky novgorod, velikiy novgorod, нн, nn
 великий устюг, veliky ustyug
 верхотурье, verkhoturye
 владивосток, vladivostok, ввд, vvd
@@ -278,105 +283,146 @@
 якутск, yakutsk
 ялта, yalta
 ярославль, yaroslavl
-париж, paris, париж-сити
+париж, paris, париж-сити, باريس
 барселона, barcelona
 лондон, london, лондон-сити
-рома, rome
+рим, rome, roma
 берлин, berlin
 мадрид, madrid
-вена, vienna
+вена, vienna, wien
 амстердам, amsterdam
-прага, prague
+прага, prague, praha
 стокгольм, stockholm
 будапешт, budapest
-мюнхен, munich
+мюнхен, munich, münchen
 люксембург, luxembourg
 мальта, malta
-антуэрпен, antwerp
-женева, geneva
+антверпен, antwerp, antwerpen
+женева, geneva, genève
 барри, bari
-флоренция, florence
+флоренция, florence, firenze
 севилья, sevilla
 монтре, montreux
 софия, sofia
-копенгаген, copenhagen
+копенгаген, copenhagen, københavn
 амальфи, amalfi
-корсика, corsica
+корсика, corsica, corse
 нью-йорк, new york, nyc
 лос-анджелес, los angeles, la
-chicago, chicago
-сандиего, san diego
-миами, miami
+чикаго, chicago
+сан-диего, san diego
+маями, miami
 сан-франциско, san francisco, sf
-вашингтон, washington dc
-ласкали, las vegas
+вашингтон, вошингтон, washington dc
+лас-вегас, las vegas, вегас
 бостон, boston
 портленд, portland
-вошингтон, washington
 сиркьюс, syracuse
 невада, nevada
 дерби, derby
 бруклин, brooklyn
-вегас, vegas
 саванна, savannah
 хьюстон, houston
 джексонвилл, jacksonville
-сент-лouis, st. louis
-миничикаго, minneapolis
+сент-луис, st. louis
+миннеаполис, minneapolis
 питсбург, pittsburgh
 норфолк, norfolk
 сидней, sydney
 мельбурн, melbourne
-ауckland, auckland
+окленд, auckland
 перт, perth
 фиджи, fiji
-танжер, tangier
-киото, kyoto
-осака, osaka
-токио, tokyo
-саппоро, sapporo
-пекин, beijing
-шэньчжэнь, shenzhen
-шанхай, shanghai
-гуанчжоу, guangzhou
-сучжоу, suzhou
-ханчжоу, hangzhou
-гуилин, guilin
+танжер, tangier, طنجة
+киото, kyoto, 京都
+осака, osaka, 大阪
+токио, tokyo, 東京
+саппоро, sapporo, 札幌
+пекин, beijing, 北京
+шэньчжэнь, shenzhen, 深圳
+шанхай, shanghai, 上海
+гуанчжоу, guangzhou, 广州
+сучжоу, suzhou, 苏州
+ханчжоу, hangzhou, 杭州
+гуилин, guilin, 桂林
 австралия, australia
 кэрнс, cairns
-голд кост, gold coast
+голд-кост, gold coast
 таунсвилл, townsville
-сидней, sydney
-мельбурн, melbourne
-перт, perth
 уоллистон, wollongong
 паджа, padja
-окленд, auckland
 кристчерч, christchurch
 веллингтон, wellington
-даксбург, dunedin
-ноу-биан, noosaville
+дансбург, dunedin
+ноусавилл, noosaville
 джакарта, jakarta
-кейптаун, cape town
+кейптаун, cape town, kaapstad
 претория, pretoria
-наироби, nairobi
-мумбаи, mumbai
-каир, cairo
+найроби, nairobi
+мумбаи, mumbai, मुंबई
+каир, cairo, القاهرة
 кигали, kigali
-дубай, dubai
-абиджан, abidjan
-гаван, havana
+дубай, dubai, دبي
+абиджан, abidjan, أبيدجان
+гавана, havana, la habana
 боа-виста, boa vista
 глория, gloria
 сантьяго, santiago
-бразилиа, brasilia
+бразилиа, brasilia, brasília
 бали, bali
 парагвай, paraguay
-дубай, dubai
-шарджа, sharjah
-абу-даби, abu dhabi
-аль-айн, al ain
-рас-эль-хайма, ras al khaimah
-фуджейра, fujairah
-умм-аль-кувейн, umm al-quwain
-ав-джумейра, al jumeirah
+шарджа, sharjah, الشارقة
+абу-даби, abu dhabi, أبوظبي
+аль-айн, al ain, العين
+рас-эль-хайма, ras al khaimah, رأس الخيمة
+фуджейра, fujairah, الفجيرة
+умм-аль-кувейн, umm al quwain, أم القيوين
+ав-джумейра, al jumeirah, الجُمَيْرَة
+бангкок, bangkok, กรุงเทพมหานคร
+сингапур, singapore, 新加坡
+рио-де-жанейро, rio de janeiro, rio
+мехико, mexico city, ciudad de méxico, cdmx
+лиссабон, lisbon, lisboa
+стамбул, istanbul, i̇stanbul
+краков, kraków, cracovia
+лима, lima
+ханой, hanoi, hà nội
+куала-лумпур, kuala lumpur
+сеул, seoul, 서울
+минск, minsk, мінск
+гродно, grodno, гродна
+брест, brest
+могилёв, mogilev, магілёў
+витебск, vitebsk, віцебск
+баку, baku, bakı
+гянджа, ganja, gəncə
+шеки, sheki, şəki
+ленкорань, lankaran
+мингечаур, mingachevir, mingəçevir
+ереван, yerevan, երեւան
+дилижан, dilijan, դիլիջան
+гюмри, gyumri, գյումրի
+ванадзор, vanadzor, վանաձոր
+вайк, vayk, վայք
+тбилиси, tbilisi, თბილისი
+батуми, batumi, ბათუმი
+кутаиси, kutaisi, ქუთაისი
+зугдиди, zugdidi, ზუგდიდი
+мцхета, mtskheta, მცხეთა
+алматы, almaty
+нур-султан, nur-sultan, нур-султан
+шымкент, shymkent, шымкент
+астана, astana
+караганда, karaganda
+nykøbing sjælland, nykobing sjaelland, нюкёбинг-шелланд, нюкебинг сьелланд, нюкебинг sj, нюкебинг
+хельсингёр, helsingør
+эльсинор, elsinore
+кёге, køge
+лангкерке, langeland
+фальстер, falster
+нэккёбинг, nykøbing
+слагелсе, slagelse
+корсёр, korsør
+виборг, viborg
+орхус, aarhus
+эсбьерг, esbjerg
