@@ -1,5 +1,5 @@
 россия, russia, ru
-сша, united states, us
+соединенные штаты америки, сша, usa, united states, us
 канада, canada, ca
 австралия, australia, au
 новая зеландия, new zealand, nz, aotearoa
@@ -24,7 +24,7 @@
 китай, china, cn, 中国, zhōngguó
 южная корея, south korea, kr, 대한민국, daehan minguk
 индия, india, in, भारत, bharat
-таиланд, thailand, th, ประเทศไทย, prathet thai
+таиланд, thailand, th, ประเทศไทย, prathet thai, thai
 сингапур, singapore, sg, singapura
 малайзия, malaysia, my
 индонезия, indonesia, id
@@ -39,7 +39,7 @@
 оман, oman, om, عمان
 ливан, lebanon, lb, لبنان, lubnan
 иордания, jordan, jo, الأردن, al-urdun
-египет, egypt, eg, مصر, misr
+египет, миср, egypt, eg, مصر, misr
 тунис, tunisia, tn, تونس, tunis
 марокко, morocco, ma, المغرب, al-maghrib
 алжир, algeria, dz, الجزائر, al-jaza'ir
@@ -219,7 +219,7 @@
 рязань, ryazan
 салехард, salekhard
 самара, samara
-санкт-петербург, sankt-peterburg, st. peterburg, sankt-petersburg, st. petersburg, спб, spb, питер, ленинград
+санкт-петербург, sankt-peterburg, st peterburg, sankt-petersburg, st petersburg, спб, spb, питер, ленинград, leningrad
 саранск, saransk
 саратов, saratov
 светлогорск, svetlogorsk
@@ -294,7 +294,7 @@
 прага, prague, praha
 стокгольм, stockholm
 будапешт, budapest
-мюнхен, munich, münchen
+мюнхен, munich, munchen, muenchen, münchen
 люксембург, luxembourg
 мальта, malta
 антверпен, antwerp, antwerpen
@@ -427,3 +427,74 @@ nykøbing sjælland, nykobing sjaelland, нюкёбинг-шелланд, нюк
 орхус, aarhus
 эсбьерг, esbjerg
 цзиньчжоу,jinzhou, jǐnzhōu, 锦州
+гудери, gudauri, გუდაური
+бакуриани, bakuriani, ბაკურიანი
+доха, doha, الدوحة
+эр-рияд, riyadh, الرياض
+иерусалим, jerusalem, ירושלים
+эйлат, eilat, אילת
+боракай, boracay
+палаван, palawan
+самуи, samui, koh samui, เกาะสมุย
+ко чанг, koh chang, เกาะช้าง
+бентота, bentota
+унаватуна, unawatuna
+варадеро, varadero
+цюрих, zurich, zürich
+канкун, cancun
+тенерифе, tenerife, teneriffa
+кемер, kemer
+фукуок, phu quoc, đảo phú quốc
+нячанг, nha trang
+патонг, patong, patong beach, пляж патонг, патонг бич
+камала, kamala
+пляж ката, ката, kata, kata beach
+карон, karon, karon beach, пляж карон, карон бич
+бангтао, bangtao, bang tao
+красная поляна, krasnaya polyana
+занзибар, zanzibar
+као лак, khao lak, เขาหลัก
+бангкок, bangkok, กรุงเทพมหานคร
+касабланка, casablanca, الدار البيضاء
+марракеш, marrakech, مراكش
+хиккадува, hikkaduwa
+коломбо, colombo, කොළඹ
+цейлон, ceylon
+шри-ланка, sri lanka, śrī lankā, இலங்கை, ilaṅkai
+хургада, hurghada, الغردقة
+шарм-эль-шейх, sharm el sheikh, شرم الشيخ
+таррагона, tarragona
+нуну атолл, южный атолл миладхунмадулу, миладхунмадулу декунубури, noonu atoll
+гаафу дхаалу атолл, gaafu dhaalu atoll
+ари атолл, ari atoll, alifu atoll
+мале, male
+мальдивы, maldives
+праслин, praslin
+маэ, mahe
+сейшелы, seychelles, sc
+канны, cannes
+ницца, nice, nissa
+чанггу, canggu
+убуд, ubud
+семиньяк, seminyak
+нуса дуа, nusa dua
+гуйлинь, guilin, 桂林
+санья, sanya, 三亚
+озеро комо, lake como, lago di como
+сицилия, sicily, sicilia, sicilia
+венеция, venice, venezia
+милан, milan, milano
+шаржда, sharjah, الشارقة
+ко самуи, koh samui, самуи, เกาะสมุย
+паттайя, pattaya, พัทยา
+пхукет, phuket, ภูเก็ต
+каппадокия, cappadocia, kapadokya
+аланья, alanya
+белек, belek
+анталья, antalya
+наклуа, naklua
+султанахмет, sultanahmet
+бейоглу, beyoglu, бейглу
+ялонг юэй, yalong bay, 亚龙湾
+дадунхай, dadonghai, 大东海
+джумейра, jumeirah, джумейра бич, jumeirah beach, جميرا
