@@ -1,6 +1,11 @@
 # Global Elasticsearch Stack
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Source Code](https://img.shields.io/badge/source-yaleksandr89%2Fdocker--elasticsearch-blue.svg?style=flat-square)](https://github.com/yaleksandr89/docker-elasticsearch)
+[![Elasticsearch](https://img.shields.io/badge/Elasticsearch-latest-005571.svg?style=flat-square&logo=elasticsearch&logoColor=white)](https://www.elastic.co/elasticsearch)
+[![Kibana](https://img.shields.io/badge/Kibana-latest-005571.svg?style=flat-square&logo=kibana&logoColor=white)](https://www.elastic.co/kibana)
+[![Nginx](https://img.shields.io/badge/Nginx-latest-009639.svg?style=flat-square&logo=nginx&logoColor=white)](https://nginx.org/)
+[![Docker](https://img.shields.io/badge/Docker-Compose-2496ED.svg?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](../LICENSE.md)
 
 ## Elija Idioma:
 
