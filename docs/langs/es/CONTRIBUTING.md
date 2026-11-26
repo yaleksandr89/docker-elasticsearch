@@ -10,6 +10,7 @@ Informe errores reproducibles en Issues y preguntas/ideas en Discussions. No pub
 
 - Errores reproducibles: [GitHub Issues](https://github.com/yaleksandr89/docker-elasticsearch/issues).
 - Preguntas e ideas: [GitHub Discussions](https://github.com/yaleksandr89/docker-elasticsearch/discussions).
+- Vulnerabilidades: [política de seguridad](https://github.com/yaleksandr89/docker-elasticsearch/blob/master/docs/langs/es/SECURITY.md).
 
 Conserve comandos Make, nombres de configuración, compatibilidad de datos y finalidad. Cambios de imágenes, red, puertos, auth/TLS y almacenamiento requieren decisión separada. Pruebe en copia nueva con datos sintéticos, contenedores, puerto y proyecto únicos; no toque el laboratorio activo.
 

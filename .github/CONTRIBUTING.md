@@ -10,6 +10,7 @@
 
 - Воспроизводимые ошибки — [GitHub Issues](https://github.com/yaleksandr89/docker-elasticsearch/issues).
 - Вопросы и идеи — [GitHub Discussions](https://github.com/yaleksandr89/docker-elasticsearch/discussions).
+- Уязвимости — [политика безопасности](https://github.com/yaleksandr89/docker-elasticsearch/blob/master/.github/SECURITY.md).
 
 Сохраняйте Make-команды, имена параметров, совместимость данных и назначение стенда. Изменения образов, сети, публикации портов, auth/TLS и хранения требуют отдельного решения. Для проверок используйте новую копию с синтетическими данными и уникальными контейнерами, портом и проектом; не затрагивайте рабочий стенд.
 

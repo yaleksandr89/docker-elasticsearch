@@ -90,9 +90,10 @@ CI se ejecuta para push y pull request a `master` y manualmente desde Actions. `
 
 - Errores reproducibles: [GitHub Issues](https://github.com/yaleksandr89/docker-elasticsearch/issues).
 - Preguntas e ideas: [GitHub Discussions](https://github.com/yaleksandr89/docker-elasticsearch/discussions).
+- Vulnerabilidades: [política de seguridad](SECURITY.md).
 
 ---
 
 <p align="center">
-  Si el proyecto te resultó útil, dale una estrella en GitHub para que otros desarrolladores puedan encontrarlo más fácilmente.
+  Si el proyecto te resultó útil, dale una estrella en GitHub para que otros desarrolladores puedan encontrarlo más fácilmente. 🤘
 </p>

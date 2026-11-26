@@ -10,6 +10,7 @@ Signalez les bugs reproductibles via Issues, questions et idées via Discussions
 
 - Bugs reproductibles : [GitHub Issues](https://github.com/yaleksandr89/docker-elasticsearch/issues).
 - Questions et idées : [GitHub Discussions](https://github.com/yaleksandr89/docker-elasticsearch/discussions).
+- Vulnérabilités : [politique de sécurité](https://github.com/yaleksandr89/docker-elasticsearch/blob/master/docs/langs/fr/SECURITY.md).
 
 Préservez les commandes Make, les noms de configuration, la compatibilité des données et l’objectif du laboratoire. Les changements d’images, réseau, ports, auth/TLS et stockage exigent une décision séparée. Testez dans une copie neuve avec données synthétiques, conteneurs, port et projet uniques ; ne touchez pas au laboratoire actif.
 

@@ -90,9 +90,10 @@ CI 在 `master` 的 push、pull request 及 Actions 手动触发时运行。`qua
 
 - 可复现的错误：[GitHub Issues](https://github.com/yaleksandr89/docker-elasticsearch/issues)。
 - 问题和想法：[GitHub Discussions](https://github.com/yaleksandr89/docker-elasticsearch/discussions)。
+- 漏洞：[安全政策](SECURITY.md)。
 
 ---
 
 <p align="center">
-  如果这个项目对你有帮助，请在 GitHub 上点一颗 Star，让其他开发者更容易找到它。
+  如果这个项目对你有帮助，请在 GitHub 上点一颗 Star，让其他开发者更容易找到它。 🤘
 </p>

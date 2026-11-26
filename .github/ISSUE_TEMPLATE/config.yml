@@ -1,4 +1,4 @@
-blank_issues_enabled: true
+blank_issues_enabled: false
 contact_links:
   - name: Discussions / Обсуждения
     url: https://github.com/yaleksandr89/docker-elasticsearch/discussions
@@ -6,3 +6,6 @@ contact_links:
   - name: Getting started / Начало работы
     url: https://github.com/yaleksandr89/docker-elasticsearch/blob/master/docs/langs/ru/guides/getting-started.md
     about: Local lab setup and isolation. / Запуск и изоляция локального стенда.
+  - name: Security issue / Проблема безопасности
+    url: https://github.com/yaleksandr89/docker-elasticsearch/security/policy
+    about: Do not publish sensitive details; read the security policy first. / Не публикуйте чувствительные детали; сначала прочитайте политику безопасности.
