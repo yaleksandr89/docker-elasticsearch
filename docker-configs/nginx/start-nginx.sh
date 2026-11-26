@@ -1,13 +1,15 @@
 #!/bin/bash
-set -e
-
-# Выполняем подстановку только нужных переменных
-echo "💥 Выполняется замена переменных в конфиге Nginx..."
-envsubst '$ELASTIC_DOMAIN $ELASTIC_CONTAINER $ELASTIC_PORT $KIBANA_DOMAIN $KIBANA_CONTAINER $KIBANA_PORT' < /etc/nginx/conf.d/default.conf.template | sed 's/__/$/g' > /etc/nginx/conf.d/default.conf
-
-# Выводим результат для проверки
-cat /etc/nginx/conf.d/default.conf
-
-# Запускаем Nginx
-echo "✅ Запуск Nginx..."
-exec nginx -g "daemon off;"
+set -eu
+export LC_ALL=C
+label='[A-Za-z0-9]([A-Za-z0-9-]{0,61}[A-Za-z0-9])?'
+for domain in "${ELASTIC_DOMAIN:?}" "${KIBANA_DOMAIN:?}"; do
+    if [[ ${#domain} -gt 253 || ! $domain =~ ^$label(\.$label)*$ ]]; then
+        echo 'Expected a DNS hostname for each virtual host.' >&2
+        exit 1
+    fi
+done
+shopt -s nocasematch
+if [[ $ELASTIC_DOMAIN == "$KIBANA_DOMAIN" || ${ELASTIC_PORT:?} != 9200 || ${KIBANA_PORT:?} != 5601 ]]; then
+    echo 'Use distinct domains and the internal ports 9200 and 5601.' >&2
+    exit 1
+fi

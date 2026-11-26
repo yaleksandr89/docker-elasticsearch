@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Discussions / Обсуждения
+    url: https://github.com/yaleksandr89/docker-elasticsearch/discussions
+    about: Ask questions and discuss ideas. / Задавайте вопросы и обсуждайте идеи.
+  - name: Getting started / Начало работы
+    url: https://github.com/yaleksandr89/docker-elasticsearch/blob/master/docs/langs/ru/guides/getting-started.md
+    about: Local lab setup and isolation. / Запуск и изоляция локального стенда.

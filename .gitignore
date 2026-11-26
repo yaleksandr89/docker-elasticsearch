@@ -10,3 +10,7 @@ data/
 *.log
 *.pid
 *.sock
+
+# Python CI/test cache
+__pycache__/
+*.py[cod]
