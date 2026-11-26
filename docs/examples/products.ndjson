@@ -1,0 +1,6 @@
+{"create":{"_id":"1"}}
+{"title":"Light notebook","category":"computers","price":750,"in_stock":true,"brand":"Smith"}
+{"create":{"_id":"2"}}
+{"title":"Gaming laptop","category":"computers","price":1500,"in_stock":false,"brand":"Smyth"}
+{"create":{"_id":"3"}}
+{"title":"Café microphone","category":"audio","price":90,"in_stock":true,"brand":"Acme"}

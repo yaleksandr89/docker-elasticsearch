@@ -1,0 +1,9 @@
+services:
+  elasticsearch:
+    networks:
+      - external_network
+
+networks:
+  external_network:
+    external: true
+    name: ${EXTERNAL_NETWORK:?set EXTERNAL_NETWORK to an existing trusted network}

@@ -1,0 +1,53 @@
+{
+  "settings": {
+    "number_of_shards": 1,
+    "number_of_replicas": 0,
+    "analysis": {
+      "filter": {
+        "lab_synonyms": {
+          "type": "synonym_graph",
+          "synonyms": ["laptop, notebook"]
+        },
+        "lab_phonetic": {
+          "type": "phonetic",
+          "encoder": "double_metaphone",
+          "replace": true
+        }
+      },
+      "analyzer": {
+        "lab_search": {
+          "type": "custom",
+          "tokenizer": "standard",
+          "filter": ["lowercase", "lab_synonyms"]
+        },
+        "lab_icu": {
+          "type": "custom",
+          "tokenizer": "standard",
+          "filter": ["icu_folding"]
+        },
+        "lab_sound": {
+          "type": "custom",
+          "tokenizer": "standard",
+          "filter": ["lowercase", "lab_phonetic"]
+        }
+      }
+    }
+  },
+  "mappings": {
+    "properties": {
+      "title": {
+        "type": "text",
+        "analyzer": "standard",
+        "search_analyzer": "lab_search",
+        "fields": {"folded": {"type": "text", "analyzer": "lab_icu"}}
+      },
+      "category": {"type": "keyword"},
+      "price": {"type": "integer"},
+      "in_stock": {"type": "boolean"},
+      "brand": {
+        "type": "text",
+        "fields": {"sound": {"type": "text", "analyzer": "lab_sound"}}
+      }
+    }
+  }
+}

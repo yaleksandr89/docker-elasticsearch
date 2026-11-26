@@ -1,18 +1,6 @@
-# Используем официальный образ Nginx
-ARG NGINX_VERSION=latest
+ARG NGINX_VERSION=1.30.8-trixie
 FROM nginx:${NGINX_VERSION}
 
-# Копируем шаблон конфигурации внутрь контейнера
-COPY default.conf.template /etc/nginx/conf.d/default.conf.template
-
-# Копируем скрипт для замены переменных и запуска Nginx
-COPY start-nginx.sh /usr/local/bin/start-nginx.sh
-
-# Даем права на выполнение скрипта
-RUN chmod +x /usr/local/bin/start-nginx.sh
-
-# Устанавливаем envsubst для подстановки переменных
-RUN apt-get update && apt-get install -y gettext-base && apt-get clean
-
-# Указываем команду для выполнения скрипта при запуске контейнера
-CMD ["/usr/local/bin/start-nginx.sh"]
+ENV NGINX_ENVSUBST_FILTER="^(ELASTIC|KIBANA)_(DOMAIN|PORT)$"
+COPY default.conf.template /etc/nginx/templates/default.conf.template
+COPY --chmod=755 start-nginx.sh /docker-entrypoint.d/15-check-routing.sh
