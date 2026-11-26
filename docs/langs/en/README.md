@@ -8,6 +8,8 @@
 [![CI](https://github.com/yaleksandr89/docker-elasticsearch/actions/workflows/ci.yml/badge.svg)](https://github.com/yaleksandr89/docker-elasticsearch/actions/workflows/ci.yml)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](../../../LICENSE.md)
 
+![Docker Elasticsearch — local lab for search and text analysis](../../assets/docker-elasticsearch-readme-cover.png)
+
 ## Choose language
 
 | Русский | English | Español | 中文 | Français | Deutsch |
