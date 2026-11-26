@@ -90,9 +90,10 @@ CI запускается для push и pull request в `master`, а также
 
 - Воспроизводимые ошибки — [GitHub Issues](https://github.com/yaleksandr89/docker-elasticsearch/issues).
 - Вопросы и идеи — [GitHub Discussions](https://github.com/yaleksandr89/docker-elasticsearch/discussions).
+- Уязвимости — [политика безопасности](.github/SECURITY.md).
 
 ---
 
 <p align="center">
-  Если пакет оказался полезен, поставьте звезду на GitHub — так его будет проще найти другим разработчикам. 🤘
+  Если проект оказался полезен, поставьте звезду на GitHub — так его будет проще найти другим разработчикам. 🤘
 </p>

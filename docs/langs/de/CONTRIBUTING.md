@@ -10,6 +10,7 @@ Reproduzierbare Fehler über Issues, Fragen und Ideen über Discussions melden. 
 
 - Reproduzierbare Fehler: [GitHub Issues](https://github.com/yaleksandr89/docker-elasticsearch/issues).
 - Fragen und Ideen: [GitHub Discussions](https://github.com/yaleksandr89/docker-elasticsearch/discussions).
+- Schwachstellen: [Sicherheitsrichtlinie](https://github.com/yaleksandr89/docker-elasticsearch/blob/master/docs/langs/de/SECURITY.md).
 
 Make-Befehle, Konfigurationsnamen, Datenkompatibilität und Laborzweck erhalten. Änderungen an Images, Netzwerk, Portfreigabe, Auth/TLS und Speicher benötigen separate Entscheidung. In frischer Kopie mit synthetischen Daten, eindeutigen Containern, Port und Projekt testen; Arbeitslabor nicht anfassen.
 

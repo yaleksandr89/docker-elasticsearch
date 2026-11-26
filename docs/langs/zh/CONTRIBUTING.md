@@ -10,6 +10,7 @@
 
 - 可复现的错误：[GitHub Issues](https://github.com/yaleksandr89/docker-elasticsearch/issues)。
 - 问题和想法：[GitHub Discussions](https://github.com/yaleksandr89/docker-elasticsearch/discussions)。
+- 漏洞：[安全政策](https://github.com/yaleksandr89/docker-elasticsearch/blob/master/docs/langs/zh/SECURITY.md)。
 
 保留 Make 命令、配置名、数据兼容性及环境用途。镜像、网络、端口发布、认证/TLS 与存储变更须单独决定。测试使用新副本、合成数据、唯一容器名、端口和项目名；不要触碰工作环境。
 

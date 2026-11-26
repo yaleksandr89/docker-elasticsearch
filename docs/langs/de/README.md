@@ -90,9 +90,10 @@ CI läuft bei Push und Pull Request auf `master` sowie manuell über Actions. `q
 
 - Reproduzierbare Fehler: [GitHub Issues](https://github.com/yaleksandr89/docker-elasticsearch/issues).
 - Fragen und Ideen: [GitHub Discussions](https://github.com/yaleksandr89/docker-elasticsearch/discussions).
+- Schwachstellen: [Sicherheitsrichtlinie](SECURITY.md).
 
 ---
 
 <p align="center">
-  Wenn das Projekt hilfreich war, geben Sie ihm einen Stern auf GitHub, damit andere Entwickler es leichter finden können.
+  Wenn das Projekt hilfreich war, geben Sie ihm einen Stern auf GitHub, damit andere Entwickler es leichter finden können. 🤘
 </p>

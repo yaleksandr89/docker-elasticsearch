@@ -10,6 +10,7 @@ Report reproducible bugs via Issues, questions and ideas via Discussions. Do not
 
 - Reproducible bugs: [GitHub Issues](https://github.com/yaleksandr89/docker-elasticsearch/issues).
 - Questions and ideas: [GitHub Discussions](https://github.com/yaleksandr89/docker-elasticsearch/discussions).
+- Vulnerabilities: [security policy](https://github.com/yaleksandr89/docker-elasticsearch/blob/master/docs/langs/en/SECURITY.md).
 
 Preserve Make commands, configuration names, data compatibility and the lab’s purpose. Image, network, port publication, auth/TLS and storage changes require a separate decision. Test in a fresh checkout with synthetic data and unique containers, port and project; do not touch the working lab.
 
